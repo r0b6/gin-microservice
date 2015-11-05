@@ -24,7 +24,7 @@ Example microservice using the Go [Gin](https://github.com/gin-gonic/gin) framew
 #app_id = "put-your-api-key-here"
 ```
 
-* Replace the "put-your-api-key-here" with the api key from your OpenWeatherMap account
+* Remove the leading hash character and replace the "put-your-api-key-here" with the api key from your OpenWeatherMap account
 
 
 ### Install go
@@ -46,7 +46,7 @@ export PATH=$PATH:$GOROOT/bin
 ### Install this package
 
 ```shell
-go get github.com/rbbll/gin-microservice
+$ go get github.com/rbbll/gin-microservice
 ```
 
 ### Install gom
