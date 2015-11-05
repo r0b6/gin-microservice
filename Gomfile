@@ -1,0 +1,14 @@
+gom 'github.com/gin-gonic/gin'
+gom 'github.com/manucorporat/sse'
+gom 'github.com/mattn/go-colorable'
+gom 'github.com/spf13/viper'
+gom 'github.com/stretchr/signature'
+gom 'github.com/stretchr/stew'
+gom 'github.com/stretchr/tracer'
+gom 'golang.org/x/net/context'
+gom 'gopkg.in/bluesuncorp/validator.v5'
+
+# Test frameworks
+gom 'github.com/jarcoal/httpmock'
+gom 'github.com/kr/pretty'
+gom 'github.com/stretchr/testify'
